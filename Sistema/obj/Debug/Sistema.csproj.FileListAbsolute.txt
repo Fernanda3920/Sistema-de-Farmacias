@@ -1,0 +1,17 @@
+C:\Users\ferna\source\repos\Sistema\Sistema\bin\Debug\Sistema.exe.config
+C:\Users\ferna\source\repos\Sistema\Sistema\bin\Debug\Sistema.exe
+C:\Users\ferna\source\repos\Sistema\Sistema\bin\Debug\Sistema.pdb
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.exe
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.pdb
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.CiudadForm.resources
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.PropietarioForm.resources
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.ClienteForm.resources
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.CostosForm.resources
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.FarmaciaForm.resources
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.MedicamentoForm.resources
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.TicketForm.resources
+C:\Users\ferna\source\repos\Sistema\Sistema\obj\Debug\Sistema.Form1.resources

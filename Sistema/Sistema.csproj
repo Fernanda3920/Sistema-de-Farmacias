@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EEA137E1-724B-4190-9853-A366C82FF7BF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema</RootNamespace>
+    <AssemblyName>Sistema</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CiudadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CiudadForm.Designer.cs">
+      <DependentUpon>CiudadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClienteForm.Designer.cs">
+      <DependentUpon>ClienteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conexionbd.cs" />
+    <Compile Include="CostosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CostosForm.Designer.cs">
+      <DependentUpon>CostosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarmaciaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarmaciaForm.Designer.cs">
+      <DependentUpon>FarmaciaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncionesBasicas.cs" />
+    <Compile Include="MedicamentoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedicamentoForm.Designer.cs">
+      <DependentUpon>MedicamentoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropietarioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropietarioForm.Designer.cs">
+      <DependentUpon>PropietarioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketForm.Designer.cs">
+      <DependentUpon>TicketForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CiudadForm.resx">
+      <DependentUpon>CiudadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClienteForm.resx">
+      <DependentUpon>ClienteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CostosForm.resx">
+      <DependentUpon>CostosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarmaciaForm.resx">
+      <DependentUpon>FarmaciaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedicamentoForm.resx">
+      <DependentUpon>MedicamentoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PropietarioForm.resx">
+      <DependentUpon>PropietarioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketForm.resx">
+      <DependentUpon>TicketForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue, white and green Medical care logo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ciudad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busquedaIcono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurarIcono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrarIcono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enviarIcono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editarIcono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardarIcono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regresarIcono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\propietarioIcono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmacia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicamento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\costos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo %282%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
