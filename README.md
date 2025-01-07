@@ -42,4 +42,4 @@ Un menú para guiar al usuario en el uso del sistema:
 ## 🚀 **Instalación**
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/sistema-administrador-farmacias.git
+   git clone https://github.com/Fernanda3920/Sistema-de-Farmacias.git
